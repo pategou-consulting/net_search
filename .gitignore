@@ -1,7 +1,7 @@
 .env
-main_google
+main_google.py
+frozen-requirements.txt
 
 #repository
 data
-__pychache__
-
+__pycache__

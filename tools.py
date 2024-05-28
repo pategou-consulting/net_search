@@ -40,15 +40,6 @@ def save_imag(url_image:str,
 
 
 
-
-
-
-
-
-
-
-
-
 # fonction pour extraire la description
 def extract_product_description(url:str):
     # Faites une requête pour obtenir le contenu de la page web

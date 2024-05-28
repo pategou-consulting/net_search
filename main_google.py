@@ -9,7 +9,7 @@ load_dotenv()
 
 
 app = FastAPI()
-@app.get("/search/{word}",response_class=UJSONResponse)
+@app.get("/search/{word}")
 async def search(word:str):
     params = {
         "q": word,

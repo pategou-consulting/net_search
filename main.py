@@ -15,7 +15,7 @@ load_dotenv()
 app = FastAPI()
 
 @app.post("/search/{word}",response_class=UJSONResponse)
-async def search(word:str)->json:
+async def search(word:str):
 
     """
     Cette fonction est la fonction principale de l'API qui recupere en paramètre le l'article rechercher

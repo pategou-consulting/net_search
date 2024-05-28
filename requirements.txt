@@ -4,4 +4,3 @@ beautifulsoup4
 requests
 pendulum
 python-dotenv
-google-search-results
