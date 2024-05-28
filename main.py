@@ -59,7 +59,7 @@ async def search(word:str):
         image_name = f"image_{date_heure.strftime('%Y-%m-%d_%H-%M-%S')}.png"
         image_url=elt["imageUrl"]
         link=elt["link"]
-        save_imag(url_image=image_url,name=image_name)
+        #save_imag(url_image=image_url,name=image_name)
         
         data={
             "name":word,
