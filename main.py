@@ -65,7 +65,7 @@ async def search(word:str):
             "name":word,
             "title":title,
             "price":price,
-            "image":image_name,
+            "image_url":image_url,
             "link":link,
         }
         
