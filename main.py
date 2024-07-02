@@ -48,8 +48,8 @@ async def search(word:str):
     result=json.loads(data)
     
 
-    #récupération des 5 premiers éléments
-    shopping_results=result["shopping"][:5]
+    #récupération des 20 premiers éléments
+    shopping_results=result["shopping"][:20]
     response=[]
     for elt in shopping_results:
 
