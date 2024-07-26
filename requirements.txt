@@ -4,3 +4,5 @@ beautifulsoup4
 requests
 pendulum
 python-dotenv
+fastapi-pagination==0.12.26
+ujson
